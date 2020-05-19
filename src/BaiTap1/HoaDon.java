@@ -23,7 +23,11 @@ public class HoaDon {
 
     @Override
     public String toString() {
-        return "HoaDon [hoaDonHeader=" + hoaDonHeader + ", cthd=" + cthd + "]\n";
+        String s = "";
+        for (int i = 0; i < cthd.size(); i++){
+            s += cthd.get(i).toString();
+        }
+        return "Hóa đơn:\n" + hoaDonHeader + "Chi tiết hóa đơn: " + s ;
     }
 
     public static class Builder {

@@ -24,7 +24,7 @@ public class HoaDonHeader {
 
     @Override
     public String toString() {
-        return "HoaDonHeader [maHD=" + maHD + ", tenKhachHang=" + tenKhachHang + ", ngayBan=" + ngayBan + "]\n";
+        return "Tiêu đề:\n  Mã hóa đơn: " + maHD + ", Tên khách hàng: " + tenKhachHang + ", ngày bán: " + ngayBan + "\n";
     }
 
 }

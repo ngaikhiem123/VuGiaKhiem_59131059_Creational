@@ -13,7 +13,17 @@ public abstract class Shape {
 
     private String brush, paper, frame;
 
-    public abstract String draw();
+    public Shape() {
+        this.brush = "Chưa rõ";
+        this.paper = "Chưa rõ";
+        this.frame = "Chưa rõ";
+    }
+   
+    public String draw(){
+        return "brush: " + brush 
+                + "\npaper: " + paper
+                + "\nframe: " + frame;
+    }
 
     public String getBrush() {
         return brush;

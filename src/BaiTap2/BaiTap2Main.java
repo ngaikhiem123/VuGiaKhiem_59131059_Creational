@@ -17,12 +17,12 @@ public class BaiTap2Main {
     public static void main(String[] args) {
         // TODO code application logic here
         String s = new MyStringBuilder()
-				.addString("ABC")
-				.addFloat((float) 123.4)
-				.addBool(true)
-				.toString();
-		
-		System.out.println(s);
+                .addString("ABC")
+                .addFloat((float) 123.4)
+                .addBool(true)
+                .toString();
+
+        System.out.println(s);
     }
-    
+
 }

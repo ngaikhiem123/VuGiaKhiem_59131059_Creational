@@ -14,6 +14,7 @@ public class Circle extends Shape{
     private static Circle circle;
 
     protected Circle() {
+        super();
     }
 
     public static Circle getCircle() {
@@ -25,7 +26,6 @@ public class Circle extends Shape{
 
     @Override
     public String draw() {
-        return "Ve mot hinh tron";
+        return "Vẽ một hình tròn với :\n" + super.draw();
     }
-
 }

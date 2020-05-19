@@ -24,8 +24,7 @@ public class CTHD {
 
     @Override
     public String toString() {
-        return "CTHD [sanPham=" + sanPham + ", soLuong=" + soLuong + ", donGia=" + donGia + ", chietKhau=" + chietKhau
-                + "]\n";
+        return "\n  Sản phẩm: " + sanPham + ", số lượng: " + soLuong + ", đơn giá: " + donGia + ", chiết khấu: " + chietKhau;
     }
 
 }

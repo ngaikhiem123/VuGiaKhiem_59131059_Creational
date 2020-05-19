@@ -11,7 +11,7 @@ package BaiTap2;
  */
 public class MyStringBuilder {
 
-    String str;
+    private String str;
 
     public MyStringBuilder() {
         str = new String();

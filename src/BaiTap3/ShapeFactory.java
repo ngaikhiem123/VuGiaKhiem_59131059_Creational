@@ -16,13 +16,15 @@ public class ShapeFactory {
     public Shape createShape(ShapeType shapeType) {
         switch (shapeType) {
             case circle:
-                return Circle.getCircle();
+                shape = Circle.getCircle();
+                break;
             case rectangle:
-                return Rectangle.getRectangle();
+                shape = Rectangle.getRectangle();
+                break;
             case triangle:
-                return Triangle.getTriangle();
-            default:
-                return null;
+                shape = Triangle.getTriangle();
+                break;
         }
+        return shape;
     }
 }

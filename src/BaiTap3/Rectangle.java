@@ -14,6 +14,7 @@ public class Rectangle extends Shape {
     private static Rectangle rectangle;
 
     protected Rectangle() {
+        super();
     }
 
     public static Rectangle getRectangle() {
@@ -25,7 +26,7 @@ public class Rectangle extends Shape {
 
     @Override
     public String draw() {
-        return "Ve mot hinh chu nhat";
+        return "Vẽ một hình chữ nhật với:\n" + super.draw();
     }
 
 }
